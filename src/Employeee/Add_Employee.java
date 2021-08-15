@@ -24,13 +24,13 @@ class Add_Employee implements ActionListener{
         id15=new JLabel();
         id15.setBounds(0,0,1368,736);
         id15.setLayout(null);
-        ImageIcon img = new ImageIcon(ClassLoader.getSystemResource("Employeee/icons/4565.jpg"));
+        ImageIcon img = new ImageIcon(ClassLoader.getSystemResource("Employeee/icons/addemp.jpg"));
         id15.setIcon(img);
 
         id8 = new JLabel("Add New Emlpoyee");
         id8.setBounds(320,30,500,50);
         id8.setFont(new Font("serif",BOLD,25));
-        id8.setForeground(new Color(21, 67, 96));
+        id8.setForeground(new Color(243, 156, 18));
         id15.add(id8);
         f.add(id15);
 
@@ -38,6 +38,7 @@ class Add_Employee implements ActionListener{
         id1 = new JLabel("Name");
         id1.setBounds(50,150,100,30);
         id1.setFont(new Font("serif",Font.BOLD,20));
+        id1.setForeground(Color.white);
         id15.add(id1);
 
         t1=new JTextField();
@@ -46,6 +47,7 @@ class Add_Employee implements ActionListener{
 
         id2 = new JLabel("Father's Name");
         id2.setBounds(400,150,200,30);
+        id2.setForeground(Color.white);
         id2.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id2);
 
@@ -56,6 +58,7 @@ class Add_Employee implements ActionListener{
         id3= new JLabel("Age");
         id3.setBounds(50,200,100,30);
         id3.setFont(new Font("serif",Font.BOLD,20));
+        id3.setForeground(Color.white);
         id15.add(id3);
 
         t3=new JTextField();
@@ -65,6 +68,7 @@ class Add_Employee implements ActionListener{
         id4= new JLabel("Date Of Birth");  
         id4.setBounds(400,200,200,30);
         id4.setFont(new Font("serif",Font.BOLD,20));
+        id4.setForeground(Color.white);
         id15.add(id4);
 
         t4=new JTextField();
@@ -74,6 +78,7 @@ class Add_Employee implements ActionListener{
         id5= new JLabel("Address");
         id5.setBounds(50,250,100,30);
         id5.setFont(new Font("serif",Font.BOLD,20));
+        id5.setForeground(Color.white);
         id15.add(id5);
 
         t5=new JTextField();
@@ -83,6 +88,7 @@ class Add_Employee implements ActionListener{
         id6= new JLabel("Phone");
         id6.setBounds(400,250,100,30);
         id6.setFont(new Font("serif",Font.BOLD,20));
+        id6.setForeground(Color.white);
         id15.add(id6);
 
         t6=new JTextField();
@@ -92,6 +98,7 @@ class Add_Employee implements ActionListener{
         id7= new JLabel("Email Id");
         id7.setBounds(50,300,100,30);
         id7.setFont(new Font("serif",Font.BOLD,20));
+        id7.setForeground(Color.white);
         id15.add(id7);
 
         t7=new JTextField();
@@ -100,7 +107,8 @@ class Add_Employee implements ActionListener{
 
         id9= new JLabel("Education");
         id9.setBounds(400,300,100,30);
-        id9.setFont(new Font("serif",Font.BOLD,20));    
+        id9.setFont(new Font("serif",Font.BOLD,20));   
+        id9.setForeground(Color.white);
         id15.add(id9);
 
         t8=new JTextField();
@@ -110,6 +118,7 @@ class Add_Employee implements ActionListener{
         id10= new JLabel("Job Post");
         id10.setBounds(50,350,100,30);
         id10.setFont(new Font("serif",Font.BOLD,20));
+        id10.setForeground(Color.white);
         id15.add(id10);
 
         t9=new JTextField();
@@ -120,6 +129,7 @@ class Add_Employee implements ActionListener{
         id11= new JLabel("NIC No");
         id11.setBounds(400,350,100,30);
         id11.setFont(new Font("serif",Font.BOLD,20));
+        id11.setForeground(Color.white);
         id15.add(id11);
 
         t10=new JTextField();
@@ -129,6 +139,7 @@ class Add_Employee implements ActionListener{
         id12= new JLabel("Employee Id");
         id12.setBounds(50,400,150,30);
         id12.setFont(new Font("serif",Font.BOLD,20));
+        id12.setForeground(Color.white);
         id15.add(id12);
 
         t11=new JTextField();   
@@ -146,14 +157,14 @@ class Add_Employee implements ActionListener{
         id15.add(lab1);
 
         b = new JButton("Submit");
-        b.setBackground(new Color(21, 67, 96));
+        b.setBackground(new Color(243, 156, 18));
         b.setForeground(Color.WHITE);
         b.setBounds(250,550,150,40);
         
         id15.add(b);
 
         b1=new JButton("Cancel");   
-        b1.setBackground(new Color(243, 156, 18));
+        b1.setBackground(new Color(21, 67, 96));
         b1.setForeground(Color.WHITE);
         b1.setBounds(450,550,150,40);
         
