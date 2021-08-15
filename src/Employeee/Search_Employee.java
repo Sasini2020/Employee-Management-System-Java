@@ -18,14 +18,14 @@ class Search_Employee implements ActionListener{
         l5=new JLabel();
         l5.setBounds(0,0,500,270);
         l5.setLayout(null);
-        ImageIcon img=new ImageIcon(ClassLoader.getSystemResource("Employeee/icons/view.jpg"));
+        ImageIcon img=new ImageIcon(ClassLoader.getSystemResource("Employeee/icons/search.jpg"));
         l5.setIcon(img);
 
 
         l=new JLabel("Employee Id");
         l.setVisible(true);
         l.setBounds(40,50,250,30);
-        l.setForeground(Color.white);
+        l.setForeground(new Color(243, 156, 18));
         Font F1=new Font("serif",Font.BOLD,25);
         l.setFont(F1); 
         l5.add(l);
@@ -37,6 +37,8 @@ class Search_Employee implements ActionListener{
 
         b=new JButton("Search");
         b.setBounds(240,150,100,30);
+        b.setBackground(new Color(243, 156, 18));
+        b.setForeground(new Color(21, 67, 96));
         b.addActionListener(this);
         l5.add(b);
 
@@ -44,6 +46,8 @@ class Search_Employee implements ActionListener{
         b2=new JButton("Cancel");
         b2.setBounds(360,150,100,30);
         b2.addActionListener(this);
+        b2.setForeground(new Color(243, 156, 18));
+        b2.setBackground(new Color(21, 67, 96));
         l5.add(b2);
 
         f.setSize(500,270);
