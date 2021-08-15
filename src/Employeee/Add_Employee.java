@@ -2,6 +2,7 @@ package Employeee;
 
 import java.sql.*;
 import java.awt.*;
+import static java.awt.Font.BOLD;
 import java.awt.event.*;
 import java.io.*;
 import javax.swing.*;
@@ -21,15 +22,15 @@ class Add_Employee implements ActionListener{
         f.setLayout(null);
 
         id15=new JLabel();
-        id15.setBounds(0,0,900,700);
+        id15.setBounds(0,0,1368,736);
         id15.setLayout(null);
         ImageIcon img = new ImageIcon(ClassLoader.getSystemResource("Employeee/icons/4565.jpg"));
         id15.setIcon(img);
 
-        id8 = new JLabel("New Employee Details");
+        id8 = new JLabel("Add New Emlpoyee");
         id8.setBounds(320,30,500,50);
-        id8.setFont(new Font("serif",Font.ITALIC,25));
-        id8.setForeground(Color.black);
+        id8.setFont(new Font("serif",BOLD,25));
+        id8.setForeground(new Color(21, 67, 96));
         id15.add(id8);
         f.add(id15);
 
@@ -145,14 +146,14 @@ class Add_Employee implements ActionListener{
         id15.add(lab1);
 
         b = new JButton("Submit");
-        b.setBackground(Color.BLACK);
+        b.setBackground(new Color(21, 67, 96));
         b.setForeground(Color.WHITE);
         b.setBounds(250,550,150,40);
         
         id15.add(b);
 
         b1=new JButton("Cancel");   
-        b1.setBackground(Color.BLACK);
+        b1.setBackground(new Color(243, 156, 18));
         b1.setForeground(Color.WHITE);
         b1.setBounds(450,550,150,40);
         

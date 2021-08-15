@@ -48,14 +48,14 @@ class login  implements ActionListener{
         b1.setBounds(40,140,120,30);
         b1.setFont(new Font("serif",Font.BOLD,15));
         b1.addActionListener(this);
-        b1.setBackground(Color.BLACK);
+        b1.setBackground(new Color(21, 67, 96));
         b1.setForeground(Color.WHITE);
         f.add(b1);
 
         b2=new JButton("Cancel");
         b2.setBounds(180,140,120,30);
         b2.setFont(new Font("serif",Font.BOLD,15));
-        b2.setBackground(Color.BLACK);
+        b2.setBackground(new Color(21, 67, 96));
         b2.setForeground(Color.WHITE);
         f.add(b2);
 

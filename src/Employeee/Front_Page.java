@@ -26,20 +26,18 @@ class Front_Page implements ActionListener{
 
 
         b = new JButton("GET'S STARTED");
-        b.setBackground(Color.BLACK);
+        b.setBackground(new Color(21, 67, 96));
         b.setForeground(Color.WHITE);
-        
-
+        b.setFocusPainted(false);
         b.setBounds(500,600,300,70);
         b.addActionListener(this);
+        b.setFont(new Font("serif",Font.BOLD,17));
 
         id=new JLabel();
         id.setBounds(0,0,1360,750);
         id.setLayout(null);
         
-   
-
-        JLabel lid=new JLabel("EMPLOYEE MANAGEMENT SYSTEM");
+        JLabel lid=new JLabel("Employee Management System");
         lid.setBounds(80,30,1500,100);
         lid.setFont(new Font("serif",Font.PLAIN,70));
         lid.setForeground(Color.black);
@@ -58,11 +56,11 @@ class Front_Page implements ActionListener{
         while(true){
             lid.setVisible(false); // lid =  j label
             try{
-                Thread.sleep(500); //1000 = 1 second
+                Thread.sleep(0); //1000 = 1 second
             }catch(Exception e){} 
             lid.setVisible(true);
             try{
-                Thread.sleep(2000);
+                Thread.sleep(3000);
             }catch(Exception e){}
         }
 
