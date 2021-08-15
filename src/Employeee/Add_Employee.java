@@ -136,7 +136,7 @@ class Add_Employee implements ActionListener{
         t10.setBounds(600,350,150,30);
         id15.add(t10);
 
-        id12= new JLabel("Employee Id");
+        id12= new JLabel("Employee Address");
         id12.setBounds(50,400,150,30);
         id12.setFont(new Font("serif",Font.BOLD,20));
         id12.setForeground(Color.white);

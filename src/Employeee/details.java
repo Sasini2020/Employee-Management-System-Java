@@ -65,7 +65,7 @@ class details  implements ActionListener{
         l1.add(b4);
 
         f.setVisible(true);
-        f.setSize(700,500);
+        f.setSize(1368,855);
         f.setLocation(450,200);
 
     }
